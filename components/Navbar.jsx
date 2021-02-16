@@ -79,7 +79,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-export default function PersistentDrawerLeft() {
+export default function Navbar() {
     const classes = useStyles();
     const theme = useTheme();
     const [open, setOpen] = React.useState(false);
@@ -153,3 +153,4 @@ export default function PersistentDrawerLeft() {
       </div>
     );
   };
+  
